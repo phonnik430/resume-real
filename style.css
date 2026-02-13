@@ -112,3 +112,30 @@ svg circle.cbar {
   text-align: center;
   width: 80px;
 }
+/* # กล่องควบคุมเพลง */
+#musicBox{
+  position:fixed;
+  bottom:15px;
+  right:15px;
+  background:#fff;
+  padding:10px 14px;
+  border-radius:14px;
+  box-shadow:0 0 15px rgba(0,0,0,.25);
+  display:flex;
+  gap:10px;
+  align-items:center;
+  z-index:999;
+}
+
+#musicBox button{
+  border:none;
+  background:#8d9e78;
+  color:white;
+  padding:6px 10px;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+#musicBox input{
+  cursor:pointer;
+}
