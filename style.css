@@ -1,0 +1,114 @@
+body, html {
+  margin: 0;
+  font-family: 'Ubuntu', 微軟正黑體, sans-serif;
+  background: #eee;
+  color: #555;
+}
+
+.resume {
+  display: flex;
+  width: 870px;
+  margin: 20px auto;
+  background: #fbfbfb;
+  border: 1px solid #bbb;
+  box-shadow: 0 0 20px -3px #bbb;
+}
+
+/* ซ้าย */
+.base {
+  width: 225px;
+  padding: 30px 15px;
+  background: rgba(238, 238, 238, 0.6);
+}
+
+.base .profile {
+  background: #8d9e78;
+  padding: 30px 15px 5px;
+  margin: -30px -15px 45px -15px;
+  text-align: center;
+}
+
+.base .photo img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.base .info .name {
+  margin-top: 10px;
+  font-size: 1.5em;
+  color: #fcfcfc;
+}
+
+.base .info .job {
+  color: #fcfcfc;
+}
+
+/* contact */
+.contact div {
+  margin: 8px 0;
+}
+
+/* follow */
+.follow .box a {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+/* ขวา */
+.func {
+  padding: 30px 25px;
+  width: calc(870px - 225px);
+}
+
+/* work & edu */
+.func ul {
+  list-style: none;
+  padding: 0;
+}
+
+.func ul li {
+  margin: 12px 0;
+}
+
+/* skills prog */
+.skills-bar {
+  background: #cdcdcd;
+  height: 6px;
+  border-radius: 10px;
+}
+
+.bar {
+  height: 6px;
+  background: #8d9e78;
+  border-radius: 10px;
+  width: 0;
+}
+
+/* circle skills */
+svg {
+  width: 60px;
+  transform: rotate(-90deg);
+}
+
+svg circle {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 8;
+}
+
+svg circle.cbar {
+  stroke: #8d9e78;
+  stroke-dasharray: 283;
+  stroke-dashoffset: 283;
+}
+
+/* interests */
+.interests-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.interests-items div {
+  text-align: center;
+  width: 80px;
+}
